@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice JavaScript</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+
+    <!-- Button with text 'click' -->
+
+    <button>Click</button>
+
+    <!-- Two Button with name and food -->
+    <p>---------------------------------------------</p>
+
+    <button>Axel</button>
+    <button>Pizza</button>
+
+    <!-- Paragraph with "Hello world!" -->
+    <p>---------------------------------------------</p>
+
+    <p>Hello, world!</p>
+
+    <!-- Two Button with name and food -->
+    <p>---------------------------------------------</p>
+
+    <p>Hello, world!</p>
+    <p>Today i went to the grocery store to buy some eggs and vegetables.</p>
+
+    <!-- Two Button for store -->
+    <p>---------------------------------------------</p>
+
+    <button id="store1">Add to cart</button>
+    <button id="store2">Buy now</button>
+
+    <!-- Product for store -->
+    <p>---------------------------------------------</p>
+
+    <div>
+        <p>Adults plain Cotton T-shirt</p>
+        <p>Price: $7.99</p>
+        <button id="store1" onclick="alert('Added');">Add to cart</button>
+        <button id="store2" onclick="console.log('Loading...'); alert('Purchased');">Buy now</button>
+    </div>
+
+    <!-- Name in script -->
+
+    <script>
+        const name = "Axel";
+        console.log (`My name is: ${name}`);
+    </script>
+
+    <!-- Check in restaurant -->
+
+    <script>
+        const coffee = 5;
+        const bagel = 3;
+        const soup = 9;
+        let cost = coffee + (2 * bagel) + soup;
+        console.log (`Cost of food: $${cost}`);
+        console.log (`Tax (10%): $${cost * .10}`);
+        cost = cost + (cost * 0.10);
+        console.log (`Total cost: $${cost}`);
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+body {
+    font-family: Arial;
+}
+
+/* Two Button for store */
+#store1 {
+    background-color: yellow;
+    padding: 2px 5px;
+}
+
+#store2 {
+    background-color: orange;
+    padding: 2px 5ox;
+}
